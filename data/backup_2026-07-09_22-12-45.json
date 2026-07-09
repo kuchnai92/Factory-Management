@@ -108,35 +108,171 @@
     ],
     "daily_ledger": [
         {
-            "id": "59d418f3-299e-4d5b-8385-31a6d634836a",
-            "date": "2026-03-18",
+            "id": "c475a579-8644-4d77-835e-f7ce9f008675",
+            "date": "2026-07-09",
             "payee": "bye",
             "items": [
                 {
-                    "prod": "بہی",
-                    "c_qty": "5",
+                    "prod": "گاجر",
+                    "c_qty": "2",
                     "b_qty": "0",
-                    "total": 1500.0
+                    "total": 500.0
+                },
+                {
+                    "prod": "تماں",
+                    "c_qty": "3",
+                    "b_qty": "0",
+                    "total": 900.0
                 }
             ],
-            "total_earned": 1500.0,
-            "paid_amount": 1500.0,
+            "total_earned": 1400.0,
+            "paid_amount": 1400.0,
             "net_balance": 0.0
         },
         {
-            "id": "88bfc9d1-65c2-4c15-b4d4-e17fba1ea8c9",
-            "date": "2026-03-18",
+            "id": "59e98bf8-8746-493f-b770-37de0b400748",
+            "date": "2026-07-09",
+            "payee": "f",
+            "items": [
+                {
+                    "prod": "گاجر",
+                    "c_qty": "4",
+                    "b_qty": "0",
+                    "total": 1000.0
+                },
+                {
+                    "prod": "h",
+                    "c_qty": "0",
+                    "b_qty": "12",
+                    "total": 60.0
+                },
+                {
+                    "prod": "بہی مکھی",
+                    "c_qty": "3",
+                    "b_qty": "0",
+                    "total": 600.0
+                },
+                {
+                    "prod": "تماں",
+                    "c_qty": "4",
+                    "b_qty": "0",
+                    "total": 1200.0
+                }
+            ],
+            "total_earned": 2860.0,
+            "paid_amount": 2860.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "07ded580-2c70-40f3-b27a-02da41d3e373",
+            "date": "2026-07-09",
+            "payee": "hello",
+            "items": [
+                {
+                    "prod": "h",
+                    "c_qty": "523",
+                    "b_qty": "243",
+                    "total": 3307.0
+                },
+                {
+                    "prod": "آملہ",
+                    "c_qty": "227",
+                    "b_qty": "9",
+                    "total": 71700.0
+                },
+                {
+                    "prod": "تماں",
+                    "c_qty": "4",
+                    "b_qty": "2",
+                    "total": 2000.0
+                }
+            ],
+            "total_earned": 77007.0,
+            "paid_amount": 77007.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "ba6c7674-820a-4357-b1ec-e81df809dd08",
+            "date": "2026-07-09",
+            "payee": "i",
+            "items": [
+                {
+                    "prod": "بہی مکھی",
+                    "c_qty": "41",
+                    "b_qty": "23",
+                    "total": 13950.0
+                },
+                {
+                    "prod": "گاجر",
+                    "c_qty": "3",
+                    "b_qty": "0",
+                    "total": 750.0
+                },
+                {
+                    "prod": "تماں",
+                    "c_qty": "2",
+                    "b_qty": "0",
+                    "total": 600.0
+                }
+            ],
+            "total_earned": 15300.0,
+            "paid_amount": 15300.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "a0ba1c7c-2334-4493-b6a0-496e3379003a",
+            "date": "2026-07-09",
+            "payee": "h",
+            "items": [
+                {
+                    "prod": "بہی مکھی",
+                    "c_qty": "1",
+                    "b_qty": "2",
+                    "total": 700.0
+                },
+                {
+                    "prod": "آملہ",
+                    "c_qty": "2",
+                    "b_qty": "3",
+                    "total": 1800.0
+                }
+            ],
+            "total_earned": 2500.0,
+            "paid_amount": 2500.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "512957b1-5a7b-4992-904d-79b54771875a",
+            "date": "2026-07-09",
             "payee": "j",
             "items": [
                 {
-                    "prod": "آملہ",
-                    "c_qty": "5",
+                    "prod": "تماں",
+                    "c_qty": "52",
+                    "b_qty": "43",
+                    "total": 32800.0
+                },
+                {
+                    "prod": "بہی",
+                    "c_qty": "2",
                     "b_qty": "0",
-                    "total": 1500.0
+                    "total": 600.0
+                },
+                {
+                    "prod": "آملہ",
+                    "c_qty": "34",
+                    "b_qty": "0",
+                    "total": 10200.0
+                },
+                {
+                    "prod": "asdf",
+                    "c_qty": "37",
+                    "b_qty": "64",
+                    "total": 33760.0
                 }
             ],
-            "total_earned": 1500.0,
-            "paid_amount": 1500.0,
+            "total_earned": 77360.0,
+            "paid_amount": 77360.0,
             "net_balance": 0.0
         }
     ],
@@ -275,6 +411,60 @@
             ],
             "total_earned": 1700.0,
             "paid_amount": 1700.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "59d418f3-299e-4d5b-8385-31a6d634836a",
+            "date": "2026-03-18",
+            "payee": "bye",
+            "items": [
+                {
+                    "prod": "بہی",
+                    "c_qty": "5",
+                    "b_qty": "0",
+                    "total": 1500.0
+                },
+                {
+                    "prod": "آملہ",
+                    "c_qty": "2",
+                    "b_qty": "0",
+                    "total": 600.0
+                }
+            ],
+            "total_earned": 2100.0,
+            "paid_amount": 2100.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "88bfc9d1-65c2-4c15-b4d4-e17fba1ea8c9",
+            "date": "2026-03-18",
+            "payee": "j",
+            "items": [
+                {
+                    "prod": "آملہ",
+                    "c_qty": "5",
+                    "b_qty": "0",
+                    "total": 1500.0
+                }
+            ],
+            "total_earned": 1500.0,
+            "paid_amount": 1500.0,
+            "net_balance": 0.0
+        },
+        {
+            "id": "36f90e50-ae5d-41d8-9832-27129f131f09",
+            "date": "2026-03-18",
+            "payee": "i",
+            "items": [
+                {
+                    "prod": "گاجر",
+                    "c_qty": "5",
+                    "b_qty": "0",
+                    "total": 1250.0
+                }
+            ],
+            "total_earned": 1250.0,
+            "paid_amount": 1250.0,
             "net_balance": 0.0
         }
     ]

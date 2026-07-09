@@ -123,16 +123,10 @@
                     "c_qty": "3",
                     "b_qty": "0",
                     "total": 900.0
-                },
-                {
-                    "prod": "بہی مکھی",
-                    "c_qty": "4",
-                    "b_qty": "2",
-                    "total": 1300.0
                 }
             ],
-            "total_earned": 2700.0,
-            "paid_amount": 2700.0,
+            "total_earned": 1400.0,
+            "paid_amount": 1400.0,
             "net_balance": 0.0
         },
         {
@@ -157,16 +151,10 @@
                     "c_qty": "3",
                     "b_qty": "0",
                     "total": 600.0
-                },
-                {
-                    "prod": "تماں",
-                    "c_qty": "4",
-                    "b_qty": "0",
-                    "total": 1200.0
                 }
             ],
-            "total_earned": 2860.0,
-            "paid_amount": 2860.0,
+            "total_earned": 1660.0,
+            "paid_amount": 1660.0,
             "net_balance": 0.0
         },
         {
