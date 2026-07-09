@@ -6,13 +6,18 @@ from payment_tab import PaymentTab
 from history_tab import HistoryTab
 
 def main(page: ft.Page):
-    page.title = "Factory Management System"
+    # Setting the window title (The native OS top bar)
+    page.title = "Amin & Sons Factory Management"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 20
+    
+    # 🔥 THE FIX: Pointing exactly to your logo.ico file!
+    page.window.icon = "logo.ico" 
 
     URDU_FONT = "Jameel Noori Nastaleeq"
 
     page.theme = ft.Theme(
+        color_scheme_seed="#009B77", 
         font_family=URDU_FONT,
         text_theme=ft.TextTheme(
             body_large=ft.TextStyle(size=21, color=ft.Colors.BLACK, font_family=URDU_FONT),   
@@ -21,8 +26,6 @@ def main(page: ft.Page):
             title_large=ft.TextStyle(size=26, color=ft.Colors.BLACK, font_family=URDU_FONT),  
             title_medium=ft.TextStyle(size=22, color=ft.Colors.BLACK, font_family=URDU_FONT), 
             title_small=ft.TextStyle(size=20, color=ft.Colors.BLACK, font_family=URDU_FONT),
-            
-            # --- THE FIX: This controls the text size inside all Dropdown Menus globally ---
             label_large=ft.TextStyle(size=19, color=ft.Colors.BLACK, font_family=URDU_FONT, weight=ft.FontWeight.BOLD),
             label_medium=ft.TextStyle(size=19, color=ft.Colors.BLACK, font_family=URDU_FONT, weight=ft.FontWeight.BOLD),
         )
@@ -66,4 +69,4 @@ def main(page: ft.Page):
     page.add(t)
 
 if __name__ == "__main__":
-    ft.run(main)
+    ft.run(main, assets_dir="assets")
